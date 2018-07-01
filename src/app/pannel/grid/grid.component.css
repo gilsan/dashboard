@@ -1,0 +1,106 @@
+.select2-dropdown {
+  font-size: 14px;
+}
+
+.select2-selection {
+  font-family: "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.select2-container--default .select2-results__option:not(.ui-state-hover) {
+  /* rservate space for the border, which will be visible on hover items */
+  border: 1px solid transparent;
+}
+body {
+  background-color: white;
+}
+.select2-container--default .select2-results__option[aria-selected=true] {
+  border: 1px solid #fad42e;
+  background: #cce6ff;
+  color: #363636;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+  /* we use css properties of .ui-state-hover and the color of .ui-state-active */
+  border: 1px solid #79b7e7;
+  background: #99ccff;
+  color: white;
+}
+.ui-jqgrid.ui-jqgrid-bootstrap .ui-jqgrid-titlebar .ui-jqgrid-title,
+.ui-jqgrid.ui-jqgrid-bootstrap .ui-jqgrid-errorbar .ui-jqgrid-error,
+.ui-jqdialog.ui-jqgrid-bootstrap .ui-jqdialog-titlebar .ui-jqdialog-title {
+  font-size: 18px;
+}
+.ui-jqdialog.ui-jqgrid-bootstrap .FormData .CaptionTD {
+  font-size: 16px;
+}
+.ui-jqgrid.ui-jqgrid-bootstrap > .ui-jqgrid-view,
+.ui-jqgrid.ui-jqgrid-bootstrap .ui-pager-control .ui-pg-input,
+.ui-jqgrid.ui-jqgrid-bootstrap > .ui-jqgrid-pager,
+.ui-jqgrid.ui-jqgrid-bootstrap .ui-pager-control .ui-pg-selbox,
+.ui-jqgrid > .ui-jqgrid-view input,
+.ui-jqgrid > .ui-jqgrid-view select,
+.ui-jqgrid > .ui-jqgrid-view textarea,
+.ui-jqgrid > .ui-jqgrid-view button {
+  font-size: 14px;
+}
+.ui-jqgrid.ui-jqgrid-bootstrap > .ui-jqgrid-view .fa,
+.ui-jqgrid.ui-jqgrid-bootstrap > .ui-jqgrid-pager .fa,
+.jqgrow .ui-pg-div > span.fa {
+  font-size: 18px;
+}
+.ui-jqgrid .ui-jqgrid-htable th {
+  padding: 0 .3em 0 .3em;
+}
+.ui-jqgrid tr.jqgrow > td,
+.ui-jqgrid tr.jqgroup > td,
+.ui-jqgrid tr.jqfoot > td,
+.ui-jqgrid tr.jqfoot > td,
+.ui-jqgrid tr.jqgfirstrow > td {
+  padding: 0 .3em 0 .3em;
+}
+.ui-jqgrid.ui-jqgrid-bootstrap,
+.ui-jqgrid-bootstrap.ui-jqdialog modal-content {
+  border: 1px solid #003380;
+}
+.ui-jqgrid.ui-jqgrid-bootstrap .ui-jqgrid-caption,
+.ui-jqdialog.ui-jqgrid-bootstrap .ui-jqdialog-titlebar {
+  background-color: #0073e6;
+  color: white;
+}
+.ui-jqgrid.ui-jqgrid-bootstrap .ui-jqgrid-hdiv {
+  background-color: #99ccff;
+}
+.ui-jqgrid-bootstrap.ui-jqgrid .ui-jqgrid-toppager,
+.ui-jqgrid-bootstrap.ui-jqgrid .ui-jqgrid-pager {
+  background-color: #cce6ff;
+}
+.table > thead > tr > td.active,
+.table > tbody > tr > td.active,
+.table > thead > tr > th.active,
+.ui-pg-table .ui-pg-button.active,
+.ui-jqgrid-actions .ui-pg-div.active {
+  background-color: #e6f2ff;
+}
+.ui-pg-table .ui-pg-button.active,
+.ui-jqgrid-actions .ui-pg-div.active {
+  border-radius: .4em;
+}
+.ui-jqgrid-btable tr.jqgrow.success,
+.ui-jqgrid-btable tr.jqgrow.success > td {
+  background-color: #ccffee;
+}
+.ui-jqgrid-btable tr.jqgrow.active,
+.ui-jqgrid-btable tr.jqgrow.active > td
+.ui-jqgrid-btable > tbody > tr.jqgrow.active > td:hover,
+.ui-jqgrid-btable.table-hover > tbody > tr.jqgrow.active:hover > td,
+.ui-jqgrid-btable.table-hover > tbody > tr.jqgrow:hover > .active,
+.ui-jqgrid-btable.table-hover > tbody > tr.jqgrow.active:hover > th {
+  background-color: #ffffe6;
+}
+.ui-jqgrid-btable tr.jqgrow.active.success,
+.ui-jqgrid-btable tr.jqgrow.active.success > td {
+  background-color: #e6e6ff;
+}
+.ui-jqdialog-titlebar-close.active {
+  background-color: #ccffee;
+}
+
+

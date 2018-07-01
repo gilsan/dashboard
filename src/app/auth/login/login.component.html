@@ -1,0 +1,69 @@
+<!-- Application header starts -->
+<!--
+<div class="app-header">
+  <h1 class="app-heading">로그인</h1>
+</div>
+-->
+<mat-grid-list cols="3">
+  <mat-grid-tile>
+
+  </mat-grid-tile>
+
+  <!-- Writing markup for login starts -->
+  <mat-grid-tile class='login-element'>
+      <div class="login-container">
+
+          <!-- Template Header starts -->
+          <div class="login-box-header">
+              <img src="https://images.pexels.com/photos/135230/pexels-photo-135230.png?auto=compress&cs=tinysrgb&h=350"
+               style="width:100%;height:100%;">
+          </div>
+          <!-- Template Header ends -->
+          <form (ngSumit)="login()" [formGroup]="form">
+          <!-- Template Body starts -->
+          <div class="login-box-body">
+
+              <!-- Markup for getting Username starts -->
+              <mat-grid-list cols="9" rowHeight="75px">
+                  <mat-grid-tile [rowspan]="1" class="login-icon">
+                      <mat-icon>lock</mat-icon>
+                  </mat-grid-tile>
+                  <mat-grid-tile [colspan]="7">
+                      <mat-form-field class="justifier">
+                          <input matInput placeholder="이메일" text="text"
+                          formCotrolName="email">
+                      </mat-form-field>
+                  </mat-grid-tile>
+              </mat-grid-list>
+              <!-- Markup for getting Username ends -->
+
+              <!-- Markup for getting Password starts -->
+              <mat-grid-list cols="9" rowHeight="100px">
+                  <mat-grid-tile [rowspan]="1"  class="login-icon">
+                      <mat-icon>remove_red_eye</mat-icon>
+                  </mat-grid-tile>
+                  <mat-grid-tile [colspan]="7">
+                      <mat-form-field class="justifier">
+                          <input matInput placeholder="암호" text="password" type="password"
+                          formControlName="password">
+                      </mat-form-field>
+                  </mat-grid-tile>
+              </mat-grid-list>
+              <!-- Markup for getting Password ends -->
+
+              <button mat-raised-button class="login-button" (click)="login()">
+                  <mat-icon>input</mat-icon> 로그인
+              </button>
+              <br/><br/>
+              <button mat-raised-button type="submit" class="login-button" (click)="signup()" [disabled]="form.invalid" >
+                <mat-icon>input</mat-icon> 등록
+            </button>
+          </div>
+          <!-- Template Body ends -->
+        </form>
+      </div>
+  </mat-grid-tile>
+  <!-- Writing markup for login ends -->
+  <mat-grid-tile></mat-grid-tile>
+
+</mat-grid-list>
